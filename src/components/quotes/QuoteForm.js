@@ -26,8 +26,6 @@ const QuoteForm = (props) => {
     // console.log('fouse!')
     setIsEnterting(true)
   }
-
-
   return (
     <Fragment>
       <Prompt when={isEnterd} massage={(location) => 'Are you sure you want to leave?'} />
@@ -38,7 +36,6 @@ const QuoteForm = (props) => {
               <LoadingSpinner />
             </div>
           )}
-
           <div className={classes.control}>
             <label htmlFor='author'>Author</label>
             <input type='text' id='author' ref={authorInputRef} />
