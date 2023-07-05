@@ -1,6 +1,10 @@
+import QuoteForm from '../components/quotes/QuoteForm'
 const NewQutes = () => {
+    const addQuoteHandler=qouteData=>{
+        console.log(qouteData)
+    }
     return (
-        <h2>New Qutes page</h2>
+        <QuoteForm onAddQoute={addQuoteHandler} />
     )
 
 }
