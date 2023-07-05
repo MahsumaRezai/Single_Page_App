@@ -6,6 +6,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #008080;
+  gap: 20px;
 }
 
 .logo {
@@ -18,11 +19,15 @@
   display: flex;
   margin: 0;
   padding: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 20px;
 }
 
 .nav li {
   margin-left: 1.5rem;
-  font-size: 1.25rem;
+  font-size: 17px;
 }
 
 .nav a {

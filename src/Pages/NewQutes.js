@@ -1,6 +1,6 @@
 const NewQutes = () => {
     return (
-        <h2>NewQutes page</h2>
+        <h2>New Qutes page</h2>
     )
 
 }
