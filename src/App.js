@@ -5,6 +5,7 @@ import AllQutes from './Pages/AllQutes';
 import QutesDetail from './Pages/QutesDetail';
 import NewQutes from './Pages/NewQutes';
 import Layout from './components/layout/Layout';
+import NotFound from './Pages/Notfound';
 function App() {
   return (
     <Layout>
@@ -21,6 +22,10 @@ function App() {
         </Route>
         <Route path='/new'>
           <NewQutes />
+
+        </Route>
+        <Route path='*'>
+          <NotFound/>
 
         </Route>
       </Switch>
